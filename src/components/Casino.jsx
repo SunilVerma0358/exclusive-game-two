@@ -24,9 +24,9 @@ const Casino = () => {
               <ButtonLinear btnLinear="Aprende más" />
             </div>
             <div className="w-full md:w-1/2 px-3">
-              <div className=" max-w-[558px] mx-auto md:mx-0 overflow-hidden rounded-2xl">
+              <div className=" max-w-[558px] mx-auto md:mx-0">
                 <img
-                  className="w-full rounded-2xl hover:scale-105 duration-300 "
+                  className="w-full rounded-2xl"
                   src={CasinoNight}
                   alt="night"
                 />

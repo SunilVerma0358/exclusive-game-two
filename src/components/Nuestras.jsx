@@ -25,7 +25,7 @@ const Nuestras = () => {
         <div className=" w-full lg:w-7/12 px-3">
           <div className="max-w-[668px] mx-auto lg:mx-0 relative z-10 ">
             <img
-              className="w-full mix-blend-multiply hover:scale-105 duration-300"
+              className="w-full mix-blend-multiply"
               src={CasinoWithCard}
               alt="CasinoWIthCard"
             />

@@ -54,7 +54,10 @@ const Atributos = () => {
         <div className="flex flex-row flex-wrap -mx-3">
           {Slots.map((event, index) => (
             <div key={index} className=" w-full sm:w-1/2 lg:w-1/3 px-3 pt-6">
-              <div className="cursor-pointer group before:hover:bg-gradient-to-l before:hover:from-[#51C8EF] before:hover:from-[-13.72%] before:hover:to-[#7AF57A] before:hover:to-[102.02%] before:top-0 before:left-0 p-[1px] relative before:bg-transparent before:absolute before:w-full before:h-full before:transition-all before:duration-500 before:ease-linear before:rounded-lg">
+              <div
+                data-aos={event.cardaos}
+                className="cursor-pointer group before:hover:bg-gradient-to-l before:hover:from-[#51C8EF] before:hover:from-[-13.72%] before:hover:to-[#7AF57A] before:hover:to-[102.02%] before:top-0 before:left-0 p-[1px] relative before:bg-transparent before:absolute before:w-full before:h-full before:transition-all before:duration-500 before:ease-linear before:rounded-lg"
+              >
                 {" "}
                 <div className="relative overflow-hidden group duration-500 ">
                   <img

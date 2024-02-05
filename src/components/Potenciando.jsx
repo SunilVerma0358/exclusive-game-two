@@ -12,12 +12,8 @@ const Potenciando = () => {
         <div className="container mx-auto px-3 max-w-[1140px] pt-12 sm:pt-16 lg:pt-[93px]">
           <div className="flex flex-wrap flex-row -mx-3 items-center pb-12 sm:pb-16 lg:pb-[178px] ">
             <div className="w-full md:w-1/2 px-3 lg:pe-6">
-              <div className="max-w-[558px] mx-auto md:mx-0 overflow-hidden ">
-                <img
-                  className="w-full hover:scale-105 duration-300"
-                  src={Jackpot}
-                  alt="jackpot"
-                />
+              <div className="max-w-[558px] mx-auto md:mx-0">
+                <img className="w-full" src={Jackpot} alt="jackpot" />
               </div>
             </div>
             <div className=" w-full md:w-1/2 px-3 pt-6 md:pt-0">
@@ -79,7 +75,10 @@ const Potenciando = () => {
                   className=" w-full sm:w-1/2 lg:w-1/3 px-3 pt-6"
                 >
                   {" "}
-                  <div className="relative overflow-hidden group duration-500 cursor-pointer ">
+                  <div
+                    data-aos={event.aoscard}
+                    className="relative overflow-hidden group duration-500 cursor-pointer "
+                  >
                     <img
                       className="w-full rounded-lg "
                       src={event.src}

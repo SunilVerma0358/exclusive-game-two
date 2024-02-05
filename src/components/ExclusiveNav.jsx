@@ -29,7 +29,7 @@ const ExclusiveNav = () => {
                   <a
                     href="#HeroSection"
                     onClick={setopen}
-                    className=" font-Inter font-medium text-[#fff] text-base leading-[160%] opacity-80 transition-all ease-linear duration-200 hover:text-white hover:opacity-100"
+                    className=" font-Inter font-medium text-[#fff] text-base leading-[160%] opacity-80 transition-all ease-linear duration-200 hover:text-white hover:opacity-100 relative after:absolute after:w-0 after:h-[1px] after:left-[50%] after:bottom-[-2.5px] after:rounded-[4px] after:bg-[#fff] hover:after:w-full hover:after:left-0 after:duration-300"
                   >
                     Hogar
                   </a>
@@ -38,7 +38,7 @@ const ExclusiveNav = () => {
                   <a
                     href="#Mission"
                     onClick={setopen}
-                    className=" font-Inter font-medium text-[#fff] text-base leading-[160%] opacity-80 transition-all ease-linear duration-200 hover:text-white hover:opacity-100"
+                    className=" font-Inter font-medium text-[#fff] text-base leading-[160%] opacity-80 transition-all ease-linear duration-200 hover:text-white hover:opacity-100 relative after:absolute after:w-0 after:h-[1px] after:left-[50%] after:bottom-[-2.5px] after:rounded-[4px] after:bg-[#fff] hover:after:w-full hover:after:left-0 after:duration-300"
                   >
                     Misión
                   </a>
@@ -47,7 +47,7 @@ const ExclusiveNav = () => {
                   <a
                     href="#traga"
                     onClick={setopen}
-                    className=" font-Inter font-medium text-[#fff] text-base leading-[160%] opacity-80 transition-all ease-linear duration-200 hover:text-white hover:opacity-100"
+                    className=" font-Inter font-medium text-[#fff] text-base leading-[160%] opacity-80 transition-all ease-linear duration-200 hover:text-white hover:opacity-100 relative after:absolute after:w-0 after:h-[1px] after:left-[50%] after:bottom-[-2.5px] after:rounded-[4px] after:bg-[#fff] hover:after:w-full hover:after:left-0 after:duration-300"
                   >
                     Tragamonedas
                   </a>
@@ -56,7 +56,7 @@ const ExclusiveNav = () => {
                   <a
                     href="#Por"
                     onClick={setopen}
-                    className=" font-Inter font-medium text-[#fff] text-base leading-[160%] opacity-80 transition-all ease-linear duration-200 hover:text-white hover:opacity-100"
+                    className=" font-Inter font-medium text-[#fff] text-base leading-[160%] opacity-80 transition-all ease-linear duration-200 hover:text-white hover:opacity-100 relative after:absolute after:w-0 after:h-[1px] after:left-[50%] after:bottom-[-2.5px] after:rounded-[4px] after:bg-[#fff] hover:after:w-full hover:after:left-0 after:duration-300"
                   >
                     Por qué elegirnos
                   </a>
@@ -65,7 +65,7 @@ const ExclusiveNav = () => {
                   <a
                     href="#Nuestras"
                     onClick={setopen}
-                    className=" font-Inter font-medium text-[#fff] text-base leading-[160%] opacity-80 transition-all ease-linear duration-200 hover:text-white hover:opacity-100"
+                    className=" font-Inter font-medium text-[#fff] text-base leading-[160%] opacity-80 transition-all ease-linear duration-200 hover:text-white hover:opacity-100 relative after:absolute after:w-0 after:h-[1px] after:left-[50%] after:bottom-[-2.5px] after:rounded-[4px] after:bg-[#fff] hover:after:w-full hover:after:left-0 after:duration-300"
                   >
                     Ofertas
                   </a>

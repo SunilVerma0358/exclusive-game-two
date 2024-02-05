@@ -1,4 +1,6 @@
 import "./App.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Atributos from "./components/Atributos";
 import BackToTop from "./components/BackToTop";
 import Casino from "./components/Casino";
@@ -15,52 +17,44 @@ import RezonesPara from "./components/RezonesPara";
 import { useEffect, useState } from "react";
 
 function App() {
-    const [Loader, setLorder] = useState(false);
-    useEffect(() => {
-        setLorder(true);
-        setTimeout(() => {
-            setLorder(false);
-        }, 3500);
-    }, []);
-    return ( <
-        >
-        <
-        div > { " " } {
-            Loader ? ( <
-                Preloader / >
-            ) : ( <
-                div className = "bg-[#00141B]" >
-                <
-                HeroSection / >
-                <
-                Misson / >
-                <
-                Atributos / >
-                <
-                Potenciando / >
-                <
-                Casino / >
-                <
-                RezonesPara / >
-                <
-                Nuestras / >
-                <
-                Platinum / >
-                <
-                MasAccording / >
-                <
-                Lanza / >
-                <
-                Footer / >
-                <
-                BackToTop / >
-                <
-                /div>
-            )
-        } { " " } <
-        /div>{" "} <
-        />
-    );
+  const [Loader, setLorder] = useState(false);
+  useEffect(() => {
+    setLorder(true);
+    setTimeout(() => {
+      setLorder(false);
+    }, 3500);
+  }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+  return (
+    <>
+      <div>
+        {" "}
+        {Loader ? (
+          <Preloader />
+        ) : (
+          <div className="bg-[#00141B]">
+            <HeroSection />
+            <Misson />
+            <Atributos />
+            <Potenciando />
+            <Casino />
+            <RezonesPara />
+            <Nuestras />
+            <Platinum />
+            <MasAccording />
+            <Lanza />
+            <Footer />
+            <BackToTop />
+          </div>
+        )}{" "}
+      </div>{" "}
+    </>
+  );
 }
 
 export default App;

@@ -34,12 +34,16 @@ export const Marca = [
   },
 ];
 export const Slots = [
-  { src: Jet },
-  { src: Jugar },
-  { src: Threed },
-  { src: Lucky },
-  { src: Dewcait },
-  { src: Casino },
+  { cardaos: "fade-down", src: Jet },
+  { cardaos: "fade-down", src: Jugar },
+  { cardaos: "fade-down", src: Threed },
+  { cardaos: "fade-up", src: Lucky },
+  { cardaos: "fade-up", src: Dewcait },
+  { cardaos: "fade-up", src: Casino },
 ];
-export const Vivo = [{ src: Jugi }, { src: Roulette }, { src: Live }];
+export const Vivo = [
+  { aoscard: "fade-up", src: Jugi },
+  { aoscard: "fade-down", src: Roulette },
+  { aoscard: "fade-up", src: Live },
+];
 export const Ellos = [{ src: Black_jack }, { src: Todoes }, { src: Betting }];

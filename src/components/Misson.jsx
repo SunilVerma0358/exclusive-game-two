@@ -14,9 +14,9 @@ const Misson = () => {
 
         <div className=" flex flex-row flex-wrap -mx-3 justify-center md:justify-normal">
           <div className=" w-full  md:w-2/4 px-3 lg:pe-8 lg:ps-3">
-            <div className="max-w-[538px] mx-auto md:mx-0 overflow-hidden rounded-2xl">
+            <div className="max-w-[538px] mx-auto md:mx-0">
               <img
-                className="w-full rounded-2xl hover:scale-105 duration-300"
+                className="w-full rounded-2xl"
                 src={CardImg}
                 alt="PokerImg"
               />
@@ -33,7 +33,7 @@ const Misson = () => {
             </p>
             <a
               href="#!"
-              className=" font-Inter font-bold text-[#D9D9D9] hover:text-[#7AF57A] text-base leading-[25.6px] transition-all duration-300 ease-linear "
+              className=" font-Inter font-bold text-[#7AF57A] text-base leading-[25.6px]"
             >
               Aprende más --{">"}
             </a>
@@ -50,13 +50,13 @@ const Misson = () => {
             </p>
             <a
               href="#!"
-              className="font-Inter font-bold text-[#D9D9D9] hover:text-[#7AF57A] text-base leading-[25.6px] transition-all duration-300 ease-linear "
+              className="font-Inter font-bold text-[#7AF57A] text-base leading-[25.6px]"
             >
               Aprende más --{">"}
             </a>
-            <div className="max-w-[538px] mx-auto md:mx-0 mt-8 sm:mt-10 md:mt-[60px] overflow-hidden rounded-2xl">
+            <div className="max-w-[538px] mx-auto md:mx-0 mt-8 sm:mt-10 md:mt-[60px]">
               <img
-                className="w-full rounded-2xl hover:scale-105 duration-300"
+                className="w-full rounded-2xl"
                 src={Aviator}
                 alt="PokerImg"
               />

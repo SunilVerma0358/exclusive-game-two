@@ -32,7 +32,7 @@ const Platinum = () => {
           <div className="w-full md:w-7/12 px-3">
             <div className="max-w-[602px] relative z-[20]">
               <img
-                className="w-full mix-blend-normal hover:scale-105 duration-300"
+                className="w-full mix-blend-normal"
                 src={PanthomCard}
                 alt="PanthomCard"
               />
