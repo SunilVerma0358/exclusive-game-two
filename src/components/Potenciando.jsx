@@ -17,43 +17,43 @@ const Potenciando = () => {
               </div>
             </div>
             <div className=" w-full md:w-1/2 px-3 pt-6 md:pt-0">
-              <h2 className=" font-Anton font-normal text-white text-[30px] sm:text-[40px] md:text-[32px] lg:text-4xl xl:text-5xl leading-[45px] xl:leading-[57.6px] max-w-[543px] ">
+              <h2 className=" font-Anton font-normal text-white text-[30px] sm:text-[40px] md:text-[30px] lg:text-4xl xl:text-5xl leading-[36px] lg:leading-[45px] xl:leading-[57.6px] max-w-[543px] ">
                 Potenciando sus elecciones
               </h2>
-              <p className=" font-Inter font-medium text-white text-sm sm:text-base leading-[25.6px] pt-3 xl:pt-4  opacity-80">
+              <p className=" font-Inter font-medium text-white text-sm lg:text-base  leading-[16px] lg:leading-[25.6px] pt-3 xl:pt-4  opacity-80">
                 Con Exclusive Game lo mejor está de tu lado.
               </p>
-              <p className=" font-Inter font-medium text-sm sm:text-base text-white opacity-80 leading-[25.6px]  pt-4 lg:pt-3 xl:pt-6 flex items-center gap-2">
+              <p className=" font-Inter font-medium text-sm lg:text-base text-white opacity-80 leading-[16px] lg:leading-[25.6px]  pt-4 lg:pt-3 xl:pt-6 flex items-center gap-2">
                 <span>
                   <Correct />
                 </span>
                 Tecnología HTML5
               </p>
-              <p className=" font-Inter font-medium text-sm sm:text-base text-white opacity-80 leading-[25.6px] pt-2 sm:pt-3 flex items-center gap-2">
+              <p className=" font-Inter font-medium text-sm lg:text-base text-white opacity-80 leading-[16px] lg:leading-[25.6px] pt-2 sm:pt-3 flex items-center gap-2">
                 <span>
                   <Correct />
                 </span>
                 Versión PC y móvil
               </p>
-              <p className=" font-Inter font-medium text-sm sm:text-base text-white opacity-80 leading-[25.6px] pt-2 sm:pt-3 flex items-center gap-2">
+              <p className=" font-Inter font-medium text-sm lg:text-base text-white opacity-80 leading-[16px] lg:leading-[25.6px] pt-2 sm:pt-3 flex items-center gap-2">
                 <span>
                   <Correct />
                 </span>
                 Control de RTP (controlás qué porcentaje pagar)
               </p>
-              <p className=" font-Inter font-medium text-sm sm:text-base text-white opacity-80 leading-[25.6px] pt-2 sm:pt-3 flex items-center gap-2 max-w-[412px]">
+              <p className=" font-Inter font-medium text-sm lg:text-base text-white opacity-80 leading-[16px] lg:leading-[25.6px] pt-2 sm:pt-3 flex items-center gap-2 max-w-[412px]">
                 <span>
                   <Correct />
                 </span>
                 Bonos editables, happy hours, Jackpots, códigos promocionales.
               </p>
-              <p className=" font-Inter font-medium text-sm sm:text-base text-white opacity-80 leading-[25.6px] pt-2 sm:pt-3 flex items-center gap-2">
+              <p className=" font-Inter font-medium text-sm lg:text-base text-white opacity-80 leading-[16px] lg:leading-[25.6px] pt-2 sm:pt-3 flex items-center gap-2">
                 <span>
                   <Correct />
                 </span>
                 Aplicación para android y windows de regalo.
               </p>
-              <p className="font-Inter font-medium text-white text-sm sm:text-base leading-[25.6px] pt-4 lg:pt-6 opacity-80">
+              <p className="font-Inter font-medium text-white text-sm lg:text-base leading-[16px] lg:leading-[25.6px] pt-4 lg:pt-6 opacity-80">
                 Te reintegramos todo lo invertido en fichas en la moneda que
                 elijas.
               </p>
